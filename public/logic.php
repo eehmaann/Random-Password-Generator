@@ -19,11 +19,11 @@
 		#replace default string with one word
 		$pass = $wordList[random_int(0, 10)]
 		#If the user wants to use a number this will randomly select whaere it goes
-		if($wantNumber = "Yes"){
+		if($wantNumber == "Yes"){
 			$numPlace =random_int(1, ($passwordLength-1));
 		}
 		#If the user wants a symbol randomly choose where it should go
-		if($wantSymbol="Yes"){
+		if($wantSymbol=="Yes"){
 		$symPlace = random_int (1, ($passwordLength-1));
 		}
 		#loop that checks if it is the right place to add a number then checks if it's the right place to add a symbol and then adds a word
