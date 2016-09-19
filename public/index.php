@@ -18,11 +18,11 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 			How many words would you like used (choose from 2-6)?
 			<input type="text" name="length"><br>
 			Do yo want to include a numeber? 
-			<input type="radio" name="num" value="No" checked> 
-			<input type="radio" name="num" value="Yes"><br>
+			<input type="radio" name="num" value="No" checked> No
+			<input type="radio" name="num" value="Yes"><br> Yes
 			Do you want to use a symbol?
-			<input type="radio" name="sym" value="No" checked>
-			<input type="radio" name="sym" value="Yes">
+			<input type="radio" name="sym" value="No" checked>No
+			<input type="radio" name="sym" value="Yes"> Yes <br>
 			<input type="submit" value="Generate">
 		</form>
 
