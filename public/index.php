@@ -19,11 +19,12 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 			<input type="text" name="length"><br>
 			Do yo want to include a numeber? 
 			<input type="radio" name="num" value="No" checked> No
-			<input type="radio" name="num" value="Yes"><br> Yes
+			<input type="radio" name="num" value="Yes"> Yes <br>
 			Do you want to use a symbol?
 			<input type="radio" name="sym" value="No" checked>No
 			<input type="radio" name="sym" value="Yes"> Yes <br>
 			<input type="submit" value="Generate">
 		</form>
+		<?php echo $password ?>
 
 	</body>	
