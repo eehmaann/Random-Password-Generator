@@ -15,7 +15,7 @@
 	$passwordLength = parseInt( $_POST["length"]);
 	$wantNumber = ( $_POST["num"]);
 	$wantSymbol = ( $_POST["sym"]);
-	if($passwordLength >=1 AND <=6){
+	if($passwordLength >=1 && $passwordLength <=6){
 		#replace default string with one word
 		$pass = $wordList[random_int(0, 10)]
 		#If the user wants to use a number this will randomly select whaere it goes
