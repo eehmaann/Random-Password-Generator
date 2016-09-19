@@ -1,5 +1,5 @@
 <? php
-	$error = 'Please fill out all contestant names.';
+	$pass = Please fill out all contestant names.;
 	//$pass = "Please type enter a number between 1 and 6 in numeric form";
 	//$wordList =[
 	//'marathon',
