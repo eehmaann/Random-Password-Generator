@@ -32,7 +32,7 @@
 				$pass = $pass + random_int(1,99);
 			}
 			if ($i == $symPlace){
-				$pass= $pass + char(random_int(33, 47))
+				$pass= $pass + char(random_int(33, 47));
 			}
 			$pass = $pass + $wordList[random_int(0, 10)];
 		}
