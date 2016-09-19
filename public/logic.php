@@ -1,8 +1,6 @@
-<? php
+<?php
 	$winnerCount = "0";
-	if (isset($winnerCount)) {
-    echo "This var is set so I will print.";
-}
+	
 	//$password = "Please fill out all contestant names.";
 	//$pass = "Please enter a number between 1 and 6 in numeric form";
 	//$wordList =[
