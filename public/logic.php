@@ -17,7 +17,7 @@
 	$wantSymbol = ( $_POST["sym"]);
 	if($passwordLength >=1 && $passwordLength <=6){
 		#replace default string with one word
-		$pass = $wordList[random_int(0, 10)]
+		$pass = $wordList[random_int(0, 10)];
 		#If the user wants to use a number this will randomly select whaere it goes
 		if($wantNumber == "Yes"){
 			$numPlace =random_int(1, ($passwordLength-1));
