@@ -8,6 +8,7 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 
     <meta charset='utf-8'>
     <title>p2 XABC Password Generator</title>
+    <?php require 'logic.php'; ?>
     <link rel="stylesheet" type="text/css" href="style.css">
     <
 </head>
@@ -26,6 +27,5 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 			<input type="radio" name="sym" value="Yes"> Yes <br>
 			<input type="submit" value="Generate">
 		</form>
-		$winnerCount = "0";
 		<?php echo $winnerCount ?>
 	</body>	
