@@ -1,5 +1,5 @@
 <? php
-	$password ="Please type enter a number between 1 and 6 in numeric form";
+	$password="Please type enter a number between 1 and 6 in numeric form";
 	$wordList =[
 	'marathon',
 	'soccer',
