@@ -46,3 +46,4 @@
 # if symbols is selected insert ascii number corresponding with random number between 33 and 47 if loop is greater than 1 and 
 #Random number between 1 and 10 to select which word in the array.
 
+?>
