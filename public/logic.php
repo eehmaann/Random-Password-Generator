@@ -1,17 +1,18 @@
 <? php
-	$pass='Please type enter a number between 1 and 6 in numeric form';
-	$wordList =[
-	'marathon',
-	'soccer',
-	'red',
-	'yellow',
-	'giddy',
-	'dolphin',
-	'bear',
-	'ball',
-	'cook',
-	'minute',
-	'line'];
+	$error = 'Please fill out all contestant names.';
+	//$pass = "Please type enter a number between 1 and 6 in numeric form";
+	//$wordList =[
+	//'marathon',
+	//'soccer',
+	//'red',
+	//'yellow',
+	//'giddy',
+	//'dolphin',
+	//'bear',
+	//'ball',
+	//'cook',
+	//'minute',
+	//'line'];
 	//$passwordLength = parseInt( $_POST["length"]);
 	//$wantNumber = ( $_POST["num"]);
 	//$wantSymbol = ( $_POST["sym"]);
