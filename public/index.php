@@ -25,5 +25,5 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 			<input type="radio" name="sym" value="Yes"> Yes <br>
 			<input type="submit" value="Generate">
 		</form>
-		<? echo $winnerCount.' ?>
+		<?php echo $winnerCount ?>
 	</body>	
