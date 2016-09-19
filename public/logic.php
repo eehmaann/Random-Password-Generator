@@ -12,7 +12,7 @@
 	'cook',
 	'minute',
 	'line'];
-	$passwordLength = parseInt( $_POST["length"]);
+	$passwordLength = (int)( $_POST["length"]);
 	$wantNumber = ( $_POST["num"]);
 	$wantSymbol = ( $_POST["sym"]);
 	if($passwordLength >=1 && $passwordLength <=6){
