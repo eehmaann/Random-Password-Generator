@@ -1,5 +1,5 @@
 <? php
-	$password="Please type enter a number between 1 and 6 in numeric form";
+	$pass='Please type enter a number between 1 and 6 in numeric form';
 	$wordList =[
 	'marathon',
 	'soccer',
@@ -17,7 +17,7 @@
 	$wantSymbol = ( $_POST["sym"]);
 	if($passwordLength >=1 AND <=6){
 		//replace default stong with one word
-		$password = $wordList[random_int(0, 10)]
+		$pass = $wordList[random_int(0, 10)]
 		# If the user wants to use a number this will randomly select whaere it goes
 		if($wantNumber = "Yes"){
 			$numPlace =random_int(1, ($passwordLength-1));
@@ -29,12 +29,12 @@
 		#loop that checks if it is the right place to add a number then checks if it's the right place to add a symbol and then adds a word
 		for($i =1; $i <$passwordLength; i++){
 			if($i == $numplace){
-				$password = $password + random_int(1,99);
+				$pass = $pass + random_int(1,99);
 			}
 			if ($i == $symPlace){
-				$password= $password + char(random_int(33, 47))
+				$passw= $pass + char(random_int(33, 47))
 			}
-			$password = $password + $wordList[random_int(0, 10)];
+			$pass = $pass + $wordList[random_int(0, 10)];
 		}
 	}
 
