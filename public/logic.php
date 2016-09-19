@@ -27,7 +27,7 @@
 		$symPlace = random_int (1, ($passwordLength-1));
 		}
 		#loop that checks if it is the right place to add a number then checks if it's the right place to add a symbol and then adds a word
-		for($i =1; $i <$passwordLength; i++){
+		for($i =1; $i <$passwordLength; $i++){
 			if($i == $numplace){
 				$pass = $pass + random_int(1,99);
 			}
