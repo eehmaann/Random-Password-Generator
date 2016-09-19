@@ -8,7 +8,9 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 
     <meta charset='utf-8'>
     <title>p2 XABC Password Generator</title>
+    <?php require 'logic.php'; ?>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <
 </head>
 
 	<body>
