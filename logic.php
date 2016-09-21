@@ -6,7 +6,7 @@
 	'red',
 	'yellow',
 	'giddy',
-	'dolphin',
+	'dolphins',
 	'bear',
 	'ball',
 	'cook',
