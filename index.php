@@ -16,7 +16,7 @@
 		<h1> XABC Password Generator</h1>
 		<form  method= "POST" action="index.php" >
 			<p>To create a random password based off of memorable words, fill out the form and press generate</p>
-			<label for ="length"> How many words would you like used (choose from 2-6)?</label>
+			<label for ="length"> How many real words would you like the password to be comprised of? (choose from 2-6)?</label>
 			<input type="number" name="length" min="2" max="6"><br>
 			Do you want to include a number? 
 			<input type="radio" name="num" value="No" checked> No
